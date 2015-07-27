@@ -1,224 +1,25 @@
- % % University of Minnesota Beamer Template (Modified C. Marron)
-\documentclass{Ximera}
-\usepackage{graphicx}
-\usepackage[german]{babel}
-\usepackage[latin1]{inputenc}
-\usepackage{times}
-\usepackage[T1]{fontenc}
-\usepackage{color}
-\usepackage{graphicx}              % to include figures
-\usepackage{subfig}		   % to place pictures side by side
-\usepackage{amsmath}               % great math stuff
-\usepackage{amsfonts}              % for blackboard bold, etc
-\usepackage{amsthm}                % better theorem environments
+\documentclass{ximera}
+\usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{tikz}			% for pictures
-\usepackage{pgfplots}
-\pgfplotsset{compat=newest}% use newest version
 
-\date[mm] 
-
-% % % Fonts: Feel free to comment/uncomment as needed
-%\usepackage{newcent}
-\usepackage{palatino}
-%\usepackage[T1]{fontenc}
-%\usepackage[scaled]{helvet}
-
-\mode<presentation>{%
-\usetheme{Warsaw}
-% Defines the "official'' UMN colors
-\xdefinecolor{GopherMaroon}{HTML}{7A0019}
-\xdefinecolor{GopherGold}{HTML}{FFCC33}
-\xdefinecolor{GopherLightGold}{HTML}{FFDE7A}
-\xdefinecolor{GopherDarkMaroon}{HTML}{5B0013}
-
-\usecolortheme[named=GopherMaroon]{structure}
-%\usecolortheme[named=GopherGold]{structure}
-
-\usecolortheme{rose} % Try 'lily' if you want to get rid of block backgrounds
-\useoutertheme[subsection=true]{smoothbars}
-\setbeamertemplate{headline}{} % Uncomment to get standard 'smoothbars' headers back]
-\setbeamertemplate{footline}
-{%
-  \leavevmode%
-\hbox{\begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm plus1fill,rightskip=.3cm]{author in head/foot}%
-  \usebeamerfont{author in head/foot} University of Minnesota
-  \end{beamercolorbox}%
-
-  \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm plus1fil]{logo in head/foot}%
-    \usebeamerfont{title in head/foot}\inserttitle
-  \end{beamercolorbox}}%
-  \vskip0pt%
-}
-\useinnertheme{rounded}
-\usefonttheme[onlylarge]{structurebold}
-\setbeamertemplate{items}[circle]
-\setbeamertemplate{sections/subsections in toc}[circle]
-\setbeamertemplate{note page}[plain2]
-\setbeamercolor{frametitle}{fg=GopherGold,bg=GopherMaroon}
-\setbeamercolor{section in head/foot}{fg=GopherMaroon,bg=GopherGold}
-\setbeamercolor{author in head/foot}{fg=GopherMaroon,bg=GopherGold}
-\setbeamercolor{logo in head/foot}{fg=GopherGold,bg=GopherMaroon}
-\setbeamercolor{block title}{fg=GopherMaroon,bg=GopherGold}
-\setbeamertemplate{navigation symbols}{} %Gets rid of the navigation symbols
-
-%Draw the UMN wordmark in the lower right-hand corner
-%\logo{\includegraphics[width=0.6in]{graphics/blockm.png}}
-}
-
-\title[Sample Problems] {Sample Problems}
-\setbeamercolor{title}{fg=GopherGold}
-%\institute{\includegraphics[width=1.5in]{graphics/maroonWMlong3}}
-
-\setbeamercovered{invisible}
+\title[A]{A}
 
 \begin{document}
 
-\begin{frame}
-	\titlepage
-\end{frame}
-	
-\begin{frame}{Inverse Trig Notation}
+\begin{abstract}
+A Greeting.
+\end{abstract}
+
+\maketitle
 
 Rewrite the following problem
 
 \[ \sin \left (\cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
+
 If ...
 
-\bigskip
+
 
 Find ...
-\vfill 
-
-\end{frame}
-
-\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (\cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
-If $\cos \theta = \frac{2}{3}$
-
-\bigskip
-
-Find $\sin \theta$
-\vfill 
-
-\end{frame}	
-		\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (\cos^{-1}  \frac{2}{3} + \tan^{-1} \frac{3}{2} \right)\]
-\vfill 
-If ...
-
-\bigskip
-
-Find ...
-\vfill 
-
-\end{frame}
-
-\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (\cos^{-1}  \frac{2}{3} + \tan^{-1} \frac{3}{2} \right)\]
-\vfill 
-If $\cos A = \frac{2}{3}$ and $\tan B = \frac{3}{2}$
-
-\bigskip
-
-Find $\sin(A+B)$
-
-\vfill 
-
-\end{frame}	
-	\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (2 \cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
-If ...
-
-\bigskip
-
-Find ...
-\vfill 
-
-\end{frame}
-
-\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (2 \cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
-If $\cos \theta = \frac{2}{3}$
-
-\bigskip
-
-Find $\sin 2 \theta$
-\vfill 
-
-\end{frame}	
-	\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (\frac{1}{2} \cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
-If ...
-
-\bigskip
-
-Find ...
-\vfill 
-
-\end{frame}
-
-\begin{frame}{Inverse Trig Notation}
-
-Rewrite the following problem
-
-\[ \sin \left (\frac{1}{2} \cos^{-1}  \frac{2}{3} \right)\]
-\vfill 
-If $\cos \theta = \frac{2}{3}$
-
-\bigskip
-
-Find $\sin \frac{1}{2} \theta$
-\vfill 
-
-\end{frame}	
-
-\begin{frame}
-
-$
-\begin{array}{ccc}
-0 < \theta < \frac{\pi}{2}&\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\frac{\pi}{2}  < \theta < \pi &\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\pi < \theta < \frac{3\pi}{2}&\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\frac{3\pi}{2}  < \theta < 2\pi &\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-2\pi < \theta < \frac{5\pi}{2}&\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\frac{5\pi}{2}  < \theta < 3\pi &\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-3\pi < \theta < \frac{7\pi}{2}&\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\frac{7\pi}{2}  < \theta < 4\pi &\qquad& \qquad < \frac{\theta}{2} < \; \\
-&& \\
-\end{array}
-$
-\end{frame}
-	
 
 \end{document}
