@@ -8,4 +8,11 @@ A Greeting.
 \end{abstract}
 \maketitle
 Hello, world.
+
+\begin{question}
+What is my name?
+\begin{freeResponse}
+Mike
+\end{freeResponse}
+\end{question}
 \end{document}
