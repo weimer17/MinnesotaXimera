@@ -1,4 +1,11 @@
 \documentclass{ximera}
+
+\title[Salutation]{Salutation}
+
 \begin{document}
+\begin{abstract}
+A Greeting.
+\end{abstract}
+\maketitle
 Hello, world.
 \end{document}
