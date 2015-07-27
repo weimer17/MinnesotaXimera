@@ -11,6 +11,9 @@ Hello, world.
 
 \begin{question}
 What is my name?
+\begin{hint}
+Most common name
+\end{hint}
 \begin{freeResponse}
 Mike
 \end{freeResponse}
